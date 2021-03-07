@@ -22,7 +22,7 @@ on:
         default: 'true'
 
 env:
-  REPO_URL: https://github.com/qdk0901/openwrt-mt7620
+  REPO_URL: https://github.com/lixuande/openwrt-icbbox
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
