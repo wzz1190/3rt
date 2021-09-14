@@ -15,7 +15,7 @@
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
-#git clone https://github.com/wzz1190/rt2860v2 package/rt2860v2
+git clone https://github.com/wzz1190/rt2860v2 package/rt2860v2
 #git clone https://github.com/wuqiong/rt2860v2-for-openwrt-mt7620 package/rt2860v2
 #git clone https://github.com/wzz1190/rt2860v2-1 package/rt2860v2
 
