@@ -14,10 +14,11 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-#sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+sed -i '$a src-git extra-feeds https://github.com/powerwheel/extra-feeds.git' feeds.conf.default
 git clone https://github.com/wzz1190/rt2860v2 package/rt2860v2
 #git clone https://github.com/wuqiong/rt2860v2-for-openwrt-mt7620 package/rt2860v2
 #git clone https://github.com/wzz1190/rt2860v2-1 package/rt2860v2
+#src-git extra-feeds https://github.com/powerwheel/extra-feeds.git
 
 
 
